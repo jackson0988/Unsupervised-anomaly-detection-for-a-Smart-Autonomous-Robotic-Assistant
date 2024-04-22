@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="anomaly_detection" type="anomaly_detection_node" name="anomaly_detection_node" output="screen"> 
+        <param name="image_topic" value="/endoscope/left/image_raw"/>
+    </node>
+</launch>
